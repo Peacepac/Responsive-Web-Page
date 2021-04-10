@@ -457,8 +457,18 @@
                         
                         @media screen and (max-width: 383px) {
                             div.hero-content-heading h3 {
-                                font-size: 100%;
-                                width: 200%;
+                                font-size: 80%;
+                                width: 150%;
                                 text-align: center;
+                               
+                            }
+                        }
+
+                        @media screen and (max-width: 327px) {
+                            div.hero-content-heading h3 {
+                                font-size: 50%;
+                                width: 800%;
+                                text-align: center;
+                                
                             }
                         }
